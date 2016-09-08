@@ -30,3 +30,5 @@ Aをコミット後、git commit --amendすると、A'として再度コミッ�
 ###git checkout -b fix/42
 ブランチ fix/42 を作成すると同時に切り替える
 
+###reset --hard master
+リモートのブランチにローカルを強制一致させたい時に使用する。
