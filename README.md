@@ -37,3 +37,6 @@ Aをコミット後、git commit --amendすると、A'として再度コミッ�
 ## git branch -f xxx
 
 HEADにブランチxxxを移動します。
+
+## git clone
+リモートリポジトリをローカルにコピーする。
