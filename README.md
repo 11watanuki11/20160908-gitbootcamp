@@ -33,7 +33,6 @@ Aをコミット後、git commit --amendすると、A'として再度コミッ�
 ## git branch fix/42
 ブランチ fix/42 を作成する。HEADは動かない。
 
-
 ## git branch -f xxx
 
 HEADにブランチxxxを移動します。
@@ -54,13 +53,13 @@ fetch + rebaseとして実行。
 git pullはfetch + mergeとして実行してくれるが、
 mergeするかわりにrebaseしてくれる。
 
-## commit --amend
-直前のコミットをやり直す
-Aをコミット後、git commit --amendすると、A'として再度コミットされる（Aは見えなくなるが.gitに残る？）
-コミットする→ファイルを追加して同じコミットをやり直したくなったときに使う？
-
-###git checkout -b fix/42
-ブランチ fix/42 を作成すると同時に切り替える
 
 ###reset --hard master
 リモートのブランチにローカルを強制一致させたい時に使用する。
+
+## cherry-pick
+今いるブランチに、指定のコミットの変更内容を取り込む
+mergeとは違ってツリーの履歴のコミットは追加されない
+
+## checkout
+指定したブランチ名のブランチに移動する
