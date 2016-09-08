@@ -17,6 +17,10 @@ commitを行うには、事前にaddコマンドで対象とするファイル�
 ###git commit -m <コミットメッセージ>
 コミットメッセージを指定して保存する。
 
+## remote add
+リモートリポジトリを追加する。
+remote add <name> <url>
+同時にfetchを行う場合は、「-f」オプションをつける。
 
 ###git checkout -b fix/42
 ブランチ fix/42 を作成すると同時に切り替える
