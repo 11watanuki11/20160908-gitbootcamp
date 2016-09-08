@@ -34,3 +34,6 @@ Aをコミット後、git commit --amendすると、A'として再度コミッ�
 ブランチ fix/42 を作成する。HEADは動かない。
 
 
+## git branch -f xxx
+
+HEADにブランチxxxを移動します。
