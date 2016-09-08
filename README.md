@@ -21,3 +21,9 @@ commitを行うには、事前にaddコマンドで対象とするファイル�
 リモートリポジトリを追加する。
 remote add <name> <url>
 同時にfetchを行う場合は、「-f」オプションをつける。
+
+## pull --rebase
+fetch + rebaseとして実行。
+「--rebase」はgit pullコマンドのオプション。
+git pullはfetch + mergeとして実行してくれるが、
+mergeするかわりにrebaseしてくれる。
