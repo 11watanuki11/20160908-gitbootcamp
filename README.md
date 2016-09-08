@@ -53,3 +53,7 @@ HEADにブランチxxxを移動します。
 ## cherry-pick
 今いるブランチに、指定のコミットの変更内容を取り込む
 mergeとは違ってツリーの履歴のコミットは追加されない
+
+## git rebase master
+ブランチのコミットを master にまとめる
+
