@@ -37,3 +37,6 @@ Aをコミット後、git commit --amendすると、A'として再度コミッ�
 ## git branch -f xxx
 
 HEADにブランチxxxを移動します。
+
+## git init
+.git を作成する　（リポジトリの初期化）
