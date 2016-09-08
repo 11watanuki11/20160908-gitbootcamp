@@ -47,6 +47,13 @@ HEADにブランチxxxを移動します。
 ## git push
 リモートリポジトリに変更内容を反映する
 
+## pull --rebase
+fetch + rebaseとして実行。
+「--rebase」はgit pullコマンドのオプション。
+git pullはfetch + mergeとして実行してくれるが、
+mergeするかわりにrebaseしてくれる。
+
+
 ###reset --hard master
 リモートのブランチにローカルを強制一致させたい時に使用する。
 
@@ -57,3 +64,8 @@ mergeとは違ってツリーの履歴のコミットは追加されない
 ## git rebase master
 ブランチのコミットを master にまとめる
 
+## checkout
+指定したブランチ名のブランチに移動する
+
+## git merge ブランチ名
+指定したブランチを、HEADの指しているブランチに取り込む。
