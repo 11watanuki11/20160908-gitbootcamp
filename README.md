@@ -30,3 +30,7 @@ Aをコミット後、git commit --amendすると、A'として再度コミッ�
 ###git checkout -b fix/42
 ブランチ fix/42 を作成すると同時に切り替える
 
+## git branch fix/42
+ブランチ fix/42 を作成する。HEADは動かない。
+
+
