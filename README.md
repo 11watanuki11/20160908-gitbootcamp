@@ -1,13 +1,18 @@
-"# 20160908-gitbootcamp" 
+# 20160908-gitbootcamp
 
-#commit
-##git commit
-�ύX�_��ۑ�����B
-commit���s���ɂ́A���O��add�R�}���h�őΏۂƂ���t�@�C�����w�肷��K�v������B
+Git Boot Campの成果物です
 
-##git commit -a
-�ύX��������ꂽ�t�@�C���������I�Ɍ��o���ĕۑ�����B
-�i�V�K�쐬�t�@�C���̓R�~�b�g�ΏۊO�j
+## git add
+ファイルを追加する
 
-##git commit -m <�R�~�b�g���b�Z�[�W>
-�R�~�b�g���b�Z�[�W���w�肵�ĕۑ�����B
+##commit
+###git commit
+変更点を保存する。
+commitを行うには、事前にaddコマンドで対象とするファイルを指定する必要がある。
+
+###git commit -a
+変更が加えられたファイルを自動的に検出して保存する。
+（新規作成ファイルはコミット対象外）
+
+###git commit -m <コミットメッセージ>
+コミットメッセージを指定して保存する。
